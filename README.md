@@ -11,9 +11,7 @@ A beautifully designed Flutter app for managing student data through a clean and
 ✅ Responsive and visually rich UI using red and complementary theme  
 ✅ Local data management (offline)  
 ✅ Flutter navigation between screens  
-✅ Reusable widgets and modular codebase
-
-> ❗**Note:** API integration is intentionally skipped due to time constraints. The logic and UI are designed to plug into APIs easily in the future.
+✅ Reusable widgets and modular codeble
 
 ---
 
@@ -21,10 +19,16 @@ A beautifully designed Flutter app for managing student data through a clean and
 
 - ⚙️ **Flutter** (Frontend framework)
 - 🎨 **Material Design** for modern, consistent UI
-- 🧠 **State Management**: `setState()` (simple, lightweight)
+- 🧠 **State Management**: `setState()` (simple, lightweig
 - 💾 **Local Storage**: Temporary in-memory data (can be extended to Hive or SharedPreferences)
 
----
+## State Management
+-Used Flutter’s built-in **setState()** for managing local UI updates.
+-Ideal for simple, screen-level state changes
+-No global state needed, so advanced tools like Provider were not required
+-Keeps the app lightweight and easy to maintain
+
+Easily upgradable to Provider or Riverpod if global state sharing is needed in futur
 
 ## 🧾 Student Data Fields
 
